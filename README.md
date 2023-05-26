@@ -7,3 +7,13 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2
 ```
 A single page application is a website or web application that dynamically rewrites a current web page with new data from the web server, instead of the default method of a web browser loading entire new pages
 ```
+### Course 6 Project setup and first app
+## for install and set the npm version:
+nvm install v18.16.0
+nvm list
+nvm use 18.16.0
+## install @angular/cli:
+npm install @angular/cli@latest --save
+## run the app:
+ng serve
+

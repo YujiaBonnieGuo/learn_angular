@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@angular/cli": "^16.0.3",
+    "npm": "^9.6.7"
+  }
+}
