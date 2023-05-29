@@ -16,6 +16,8 @@ A single page application is a website or web application that dynamically rewri
 nvm install v18.16.0
 nvm list
 nvm use 18.16.0
+for working:
+nvm use 14.21.2
 ## install @angular/cli:
 npm install @angular/cli@latest --save
 ## run the app:
