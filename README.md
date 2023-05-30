@@ -28,3 +28,23 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   imports: [FormsModule],
 })
+
+### Course 12 A Basic Project Setup using Bootstrap for Styling
+
+1. npm install --save bootstrap@3
+
+2. in file my-first-app\angular.json
+add
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+in projects.my-first-app.architect.build.options.styles
+will be like:
+``` json
+{"styles": [
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "src/styles.css"
+  ]}
+```
+3. re-run ng serve
+Bootstrap v3.4.1 (https://getbootstrap.com/)
+should be able to shown in inspect Source: localhost:4200.style.css
+
