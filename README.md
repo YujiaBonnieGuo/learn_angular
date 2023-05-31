@@ -52,6 +52,8 @@ should be able to shown in inspect Source: localhost:4200.style.css
 auto generate servers components:
 ng generate component servers
 ng g c servers
+ng g c WarningAlert
+ng g c SuccessAlert
 
 ### Course 21. Working with Component Templates
 inline template
