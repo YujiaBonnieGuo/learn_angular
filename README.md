@@ -48,4 +48,18 @@ will be like:
 Bootstrap v3.4.1 (https://getbootstrap.com/)
 should be able to shown in inspect Source: localhost:4200.style.css
 
-### Course 15 How an Angular App gets Loaded and Started
+### Course 20. Creating Components with the CLI & Nesting Components
+auto generate servers components:
+ng generate component servers
+ng g c servers
+
+### Course 21. Working with Component Templates
+inline template
+``` ts
+@Component({
+  selector: 'app-servers',
+  template: `<app-server></app-server>`,
+  styleUrls: ['./servers.component.css'],
+})
+```
+### Course 22. Working with Component Styles
