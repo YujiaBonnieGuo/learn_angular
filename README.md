@@ -62,4 +62,10 @@ inline template
   styleUrls: ['./servers.component.css'],
 })
 ```
-### Course 22. Working with Component Styles
+### Course 23. Fully Understanding the Component Selector
+selector: 'app-servers':
+<app-servers></app-servers>
+selector: '[app-servers]':
+<div app-servers></div>
+selector: '.app-servers':
+<div class="app-servers"></div>
