@@ -54,6 +54,7 @@ ng generate component servers
 ng g c servers
 ng g c WarningAlert
 ng g c SuccessAlert
+ng g c single-referrals
 
 ### Course 21. Working with Component Templates
 inline template
