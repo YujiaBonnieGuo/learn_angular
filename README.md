@@ -94,3 +94,11 @@ selector: '.app-servers':
 ### Course 25. What is Databinding?
 
 ### Course 26. String Interpolation
+
+```html
+<p>{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p>
+```
+
+### Course 27. Property Binding
+
+keywords: setTimeout, button[disabled] binding
