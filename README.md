@@ -102,3 +102,9 @@ selector: '.app-servers':
 ### Course 27. Property Binding
 
 keywords: setTimeout, button[disabled] binding
+
+### Course 28. Property Binding vs String Interpolation
+
+keywords: [innerText]
+
+### Course 29. Event Binding
