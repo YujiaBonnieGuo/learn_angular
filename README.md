@@ -122,3 +122,4 @@ Important: For events, you don't bind to onclick but only to click (=> (click)).
 ```
 
 ### Course 31. Passing and Using Data with Event Binding
+keywords: input, onUpdateServerName($event), (<HTMLInputElement>event.target).value
