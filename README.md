@@ -108,3 +108,4 @@ keywords: setTimeout, button[disabled] binding
 keywords: [innerText]
 
 ### Course 29. Event Binding
+keywords: button (click), onCreateServer
