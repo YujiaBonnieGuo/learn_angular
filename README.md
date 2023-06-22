@@ -109,3 +109,16 @@ keywords: [innerText]
 
 ### Course 29. Event Binding
 keywords: button (click), onCreateServer
+
+### Course 30. Bindable Properties and Events
+
+```txt
+Ways to get the Properties or Events of HTML Elements you may bind
+1. console.log()  the element you're interested in to see which properties and events it offers.
+
+Important: For events, you don't bind to onclick but only to click (=> (click)).
+
+2. The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.
+```
+
+### Course 31. Passing and Using Data with Event Binding
