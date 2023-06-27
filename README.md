@@ -108,6 +108,7 @@ keywords: setTimeout, button[disabled] binding
 keywords: [innerText]
 
 ### Course 29. Event Binding
+
 keywords: button (click), onCreateServer
 
 ### Course 30. Bindable Properties and Events
@@ -122,4 +123,30 @@ Important: For events, you don't bind to onclick but only to click (=> (click)).
 ```
 
 ### Course 31. Passing and Using Data with Event Binding
+
 keywords: input, onUpdateServerName($event), (<HTMLInputElement>event.target).value
+
+change port: learn_angular\my-first-app\angular.json
+
+```json
+{
+	"$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+	"projects": {
+		"my-project": {
+			"architect": {
+				"serve": {
+					"options": {
+						"port": 4201
+					}
+				}
+			}
+		}
+	}
+}
+```
+
+### Course 33. Two-Way-Databinding
+
+ngModel: two way binding
+
+### Course 34. Combining all Forms of Databinding
