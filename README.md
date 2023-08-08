@@ -150,3 +150,8 @@ change port: learn_angular\my-first-app\angular.json
 ngModel: two way binding
 
 ### Course 34. Combining all Forms of Databinding
+
+### Course 37. Using ngIf to Output Data Conditionally
+```html
+<p *ngIf='serverCreated'>do something when serverCreated == true</p>
+```
