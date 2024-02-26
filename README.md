@@ -27,6 +27,13 @@ nvm use 18.16.0
 for working:
 nvm use 14.21.2
 
+when have error:
+PS C:\Users\TinyEYE\.Admin Bonnie Guo\Document\notes\learn_angular> ng serve
+Node.js version v14.21.2 detected.
+The Angular CLI requires a minimum of v16.13.
+solution:
+nvm use 18.16.0
+
 ## install @angular/cli:
 
 npm install @angular/cli@latest --save
@@ -154,4 +161,24 @@ ngModel: two way binding
 ### Course 37. Using ngIf to Output Data Conditionally
 ```html
 <p *ngIf='serverCreated'>do something when serverCreated == true</p>
+```
+
+### Course 39.Enhancing ngIf with an Else Condition
+```html
+<p *ngIf='serverCreated; else noServer'>Server was created, server name is {{ serverName }}</p>
+<ng-template #noServer>
+  <p>NO Server was created</p>
+</ng-template>
+```
+
+
+### Course 40. Angular 17: Alternative "if" Syntax
+Instead of using *ngIf, you can use a built-in @if template control flow statement.
+```html
+@if (someCondition) {
+  <p>Only visible if 'someCondition' is true</p>
+}
+would replace
+
+<p *ngIf="someCondition">Only visible if 'someCondition' is true</p>
 ```
